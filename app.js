@@ -8,9 +8,10 @@ if(process.argv[2]){
 
 	// check arg type maybee eval function name with arg if we add more
 	if (command === "--count"){
+		// console.dir for show full object
 		console.dir(commands.count(data.data), {depth: null, colors: true});
 	} else if ((m = regex.exec(command)) !== null && m[2]) {
-		console.log(commands.filter(data.data, m[2]));
+		console.dir(commands.filter(data.data, m[2]), {depth: null, colors: true});
 	} else {
 		console.log("Unknown command, use --count or --filter=[string]");
 	}

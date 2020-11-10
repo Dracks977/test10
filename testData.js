@@ -25,7 +25,7 @@ const data = [{
             {name: 'Deer Mouse'}]
       }]
 }
-]
+];
 
 // result of test
 const countResult = [{
@@ -54,9 +54,23 @@ const countResult = [{
             {name: 'Deer Mouse'}]
       }]
 }
-]
+];
+
+const filterResult = [
+  {
+    name: 'Dillauti',
+    people: [
+      { name: 'Winifred Graham', animals: [ { name: 'Crow' } ] },
+      {
+        name: 'Blanche Viciani',
+        animals: [ { name: 'Crow' }, { name: 'Guinea Fowl' } ]
+      }
+    ]
+  }
+];
 
 module.exports = {
   data,
-  countResult
+  countResult,
+  filterResult
 }
