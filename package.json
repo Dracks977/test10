@@ -1,0 +1,22 @@
+{
+  "name": "test10",
+  "version": "1.0.0",
+  "description": "## Filter",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dracks977/test10.git"
+  },
+  "author": "Dracks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dracks977/test10/issues"
+  },
+  "homepage": "https://github.com/Dracks977/test10#readme",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}
